@@ -1,0 +1,12 @@
+.original{
+    width: 300px;
+    height: auto;
+}
+
+.avatar{
+    width: 200px;
+}
+
+.avatar.mandispro{
+height: 400px;
+}
