@@ -1,0 +1,30 @@
+.textred{
+    color: red;
+}
+
+.textred.bigbold{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.green,
+.parent{
+    color:green;
+    font-size: 38px;
+}
+.textred.ancestor{
+    font-size: 28px;
+}
+
+.confirm{
+    background-color: green;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cancel{
+    background-color: pink;
+    font-size: 28px;
+}
+
