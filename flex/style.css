@@ -1,0 +1,21 @@
+.container{
+    /* width: 900px; */
+    height: 600px;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    
+
+}
+
+.reddiv{
+    background: pink;
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    
+    
+}
