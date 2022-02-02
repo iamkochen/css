@@ -1,0 +1,44 @@
+.header{
+    background: papayawhip;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    max-width: 100%;
+    
+   
+}
+
+.logo{
+    background: white;
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    padding: 4px 32px;
+    margin: 4px 0;
+   
+    
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:8px;
+    margin: 0;
+    padding: 0;
+    flex:1
+}
+
+.a-flex{
+    background: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px;
+    
+
+}
+
+
+
