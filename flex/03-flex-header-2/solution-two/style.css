@@ -1,0 +1,65 @@
+
+
+body{
+    background: #eee;
+}
+
+.header{
+    background: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    color: purple;
+    font-weight: 900;
+    font-size: 3.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+.left-links{
+    flex:1;
+    
+}
+
+.left-links ul{
+    list-style-type: none; 
+    display: flex;
+    gap:10px;
+     
+    
+}
+
+.left-links li{
+  
+}
+
+.left-links a{
+    color: purple;
+    text-decoration: none;
+    font-size: 2.5vw;
+    flex:1;
+    
+
+}
+
+.notifications{
+    background: purple;
+    border-radius: 10px;
+    font-size: 2vw;
+    color: white;
+    padding: 5px 20px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.profile-image{
+    background: purple;
+    border-radius: 50%;
+    width: 48px;
+    height:48px ;
+    margin: 0 10px;
+}
