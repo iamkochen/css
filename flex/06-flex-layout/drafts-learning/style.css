@@ -1,0 +1,147 @@
+
+html, body{
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  /* height needs to be set to push Footer Down page*/
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+
+
+footer{
+    background: #eeeeee;
+    display: flex;
+    
+}
+
+.header, footer{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px ;
+}
+
+.left-links{
+    justify-content: flex-start;
+    
+}
+
+.right-links{
+    margin-left: auto;
+  
+}
+
+
+
+.content{
+    flex:auto; /* or flex:1 0 auto - to keep footer sticky at bottom page*/
+    
+} 
+
+.vertical-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.first-input{
+
+    font-size: 25px;
+    padding: 8px 10px;
+    border-radius: 20px;        
+    }
+
+.title{
+    font-size: 60px;
+   text-align: center;
+    
+}
+
+button{
+    background: #eeeeee;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.search-center{
+    display: flex;
+    gap:10px;
+}
+
+.test-items{
+    border:1px solid green;
+    font-size: 30px;
+}
+
+.one{
+    flex:1;
+}
+
+.two{
+    flex:2;
+}
+
+.three{flex:1;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.input-item.two{
+    background: chocolate;
+   
+}
+
+.test-center{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.test-input{
+    
+    font-size: 25px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    flex: 1;
+    max-width: 70%;
+}
+
+.search-bar{
+    max-width: 70%;
+   
+    
+}
